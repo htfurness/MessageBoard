@@ -4,7 +4,8 @@
   "description": "Simple Message Board API",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "local": "npx tsc && node ./build/app.js"
   },
   "repository": {
     "type": "git",
